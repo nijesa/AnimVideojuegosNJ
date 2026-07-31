@@ -20,7 +20,7 @@ public class PlayerAnimationStateController : MonoBehaviour
         bool forwardPressed = Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow);
         bool runPressed = Input.GetKey(KeyCode.LeftShift);
 
-        if (forwardPressed && Velocity<1f)
+        if (forwardPressed && Velocity<1.0f)
         {
             Velocity += Time.deltaTime * acceleration;
         }
@@ -28,6 +28,11 @@ public class PlayerAnimationStateController : MonoBehaviour
         if(!forwardPressed && Velocity > 0f)
         {
             Velocity -= Time.deltaTime * deceleration;
+        }
+
+        if (!forwardPressed && Velocity < 0f)
+        {
+            Velocity = 0.0f;
         }
 
         animator.SetFloat(VelocityHash, Velocity);
