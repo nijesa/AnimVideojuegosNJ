@@ -184,9 +184,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a61b1c190ff47d447ae57b215710bce0, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1385255647}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a61b1c190ff47d447ae57b215710bce0, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1385255646}
   m_SourcePrefab: {fileID: 100100000, guid: a61b1c190ff47d447ae57b215710bce0, type: 3}
 --- !u!1 &330585543
@@ -520,27 +517,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerAnimationStateController
   acceleration: 0.1
---- !u!65 &1385255647
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1385255645}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.44667387, y: 1.7928256, z: 0.30627728}
-  m_Center: {x: -0.0041291714, y: 0.8836704, z: 0.033034563}
+  deceleration: 0.5
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
