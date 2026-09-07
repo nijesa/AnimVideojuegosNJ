@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "TEST",
+    "maps": [
+        {
+            "name": "TestMove",
+            "id": "82d3f3ac-7c9c-47d9-8fd0-f801def6e188",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Button",
+                    "id": "34c94e1d-0123-42ac-bfcc-a20f0c260b45",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "24e26e5e-3025-48ce-88cc-3fbc87de9195",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

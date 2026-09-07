@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MaskUpperBody
+  m_Mask: 00000000010000000100000000000000000000000100000001000000010000000100000000000000000000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Camera
+    m_Weight: 0
+  - m_Path: human_male_base03
+    m_Weight: 1
+  - m_Path: skeleton_human_male
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_L
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_L/upperarm_L
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_L/upperarm_L/lowerarm_L
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_L/upperarm_L/lowerarm_L/hand_L
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_L/upperarm_L/lowerarm_L/hand_L/index00_L
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_L/upperarm_L/lowerarm_L/hand_L/index00_L/index01_L
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_L/upperarm_L/lowerarm_L/hand_L/index00_L/index01_L/index02_L
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_L/upperarm_L/lowerarm_L/hand_L/index00_L/index01_L/index02_L/index03_L
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_L/upperarm_L/lowerarm_L/hand_L/index00_L/index01_L/index02_L/index03_L/index03_L_end
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_L/upperarm_L/lowerarm_L/hand_L/middle00_L
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_L/upperarm_L/lowerarm_L/hand_L/middle00_L/middle01_L
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_L/upperarm_L/lowerarm_L/hand_L/middle00_L/middle01_L/middle02_L
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_L/upperarm_L/lowerarm_L/hand_L/middle00_L/middle01_L/middle02_L/middle03_L
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_L/upperarm_L/lowerarm_L/hand_L/middle00_L/middle01_L/middle02_L/middle03_L/middle03_L_end
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_L/upperarm_L/lowerarm_L/hand_L/pinky00_L
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_L/upperarm_L/lowerarm_L/hand_L/pinky00_L/pinky01_L
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_L/upperarm_L/lowerarm_L/hand_L/pinky00_L/pinky01_L/pinky02_L
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_L/upperarm_L/lowerarm_L/hand_L/pinky00_L/pinky01_L/pinky02_L/pinky03_L
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_L/upperarm_L/lowerarm_L/hand_L/pinky00_L/pinky01_L/pinky02_L/pinky03_L/pinky03_L_end
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_L/upperarm_L/lowerarm_L/hand_L/ring00_L
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_L/upperarm_L/lowerarm_L/hand_L/ring00_L/ring01_L
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_L/upperarm_L/lowerarm_L/hand_L/ring00_L/ring01_L/ring02_L
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_L/upperarm_L/lowerarm_L/hand_L/ring00_L/ring01_L/ring02_L/ring03_L
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_L/upperarm_L/lowerarm_L/hand_L/ring00_L/ring01_L/ring02_L/ring03_L/ring03_L_end
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_L/upperarm_L/lowerarm_L/hand_L/thumb01_L
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_L/upperarm_L/lowerarm_L/hand_L/thumb01_L/thumb02_L
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_L/upperarm_L/lowerarm_L/hand_L/thumb01_L/thumb02_L/thumb03_L
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_L/upperarm_L/lowerarm_L/hand_L/thumb01_L/thumb02_L/thumb03_L/thumb03_L_end
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_R
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_R/upperarm_R
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_R/upperarm_R/lowerarm_R
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_R/upperarm_R/lowerarm_R/hand_R
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_R/upperarm_R/lowerarm_R/hand_R/index00_R
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_R/upperarm_R/lowerarm_R/hand_R/index00_R/index01_R
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_R/upperarm_R/lowerarm_R/hand_R/index00_R/index01_R/index02_R
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_R/upperarm_R/lowerarm_R/hand_R/index00_R/index01_R/index02_R/index03_R
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_R/upperarm_R/lowerarm_R/hand_R/index00_R/index01_R/index02_R/index03_R/index03_R_end
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_R/upperarm_R/lowerarm_R/hand_R/middle00_R
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_R/upperarm_R/lowerarm_R/hand_R/middle00_R/middle01_R
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_R/upperarm_R/lowerarm_R/hand_R/middle00_R/middle01_R/middle02_R
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_R/upperarm_R/lowerarm_R/hand_R/middle00_R/middle01_R/middle02_R/middle03_R
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_R/upperarm_R/lowerarm_R/hand_R/middle00_R/middle01_R/middle02_R/middle03_R/middle03_R_end
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_R/upperarm_R/lowerarm_R/hand_R/pinky00_R
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_R/upperarm_R/lowerarm_R/hand_R/pinky00_R/pinky01_R
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_R/upperarm_R/lowerarm_R/hand_R/pinky00_R/pinky01_R/pinky02_R
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_R/upperarm_R/lowerarm_R/hand_R/pinky00_R/pinky01_R/pinky02_R/pinky03_R
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_R/upperarm_R/lowerarm_R/hand_R/pinky00_R/pinky01_R/pinky02_R/pinky03_R/pinky03_R_end
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_R/upperarm_R/lowerarm_R/hand_R/ring00_R
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_R/upperarm_R/lowerarm_R/hand_R/ring00_R/ring01_R
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_R/upperarm_R/lowerarm_R/hand_R/ring00_R/ring01_R/ring02_R
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_R/upperarm_R/lowerarm_R/hand_R/ring00_R/ring01_R/ring02_R/ring03_R
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_R/upperarm_R/lowerarm_R/hand_R/ring00_R/ring01_R/ring02_R/ring03_R/ring03_R_end
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_R/upperarm_R/lowerarm_R/hand_R/thumb01_R
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_R/upperarm_R/lowerarm_R/hand_R/thumb01_R/thumb02_R
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_R/upperarm_R/lowerarm_R/hand_R/thumb01_R/thumb02_R/thumb03_R
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/clavicle_R/upperarm_R/lowerarm_R/hand_R/thumb01_R/thumb02_R/thumb03_R/thumb03_R_end
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/neck
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/neck/head
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/spine01/spine02/spine03/neck/head/head_end
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/thigh_L
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/thigh_L/calf_L
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/thigh_L/calf_L/foot_L
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/thigh_L/calf_L/foot_L/toes_L
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/thigh_L/calf_L/foot_L/toes_L/toes_L_end
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/thigh_R
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/thigh_R/calf_R
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/thigh_R/calf_R/foot_R
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/thigh_R/calf_R/foot_R/toes_R
+    m_Weight: 1
+  - m_Path: skeleton_human_male/root/pelvis/thigh_R/calf_R/foot_R/toes_R/toes_R_end
+    m_Weight: 1
+  - m_Path: Sun
+    m_Weight: 0
+  - m_Path: Sun.001
+    m_Weight: 0
