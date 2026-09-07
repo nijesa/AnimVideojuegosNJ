@@ -65,6 +65,8 @@ public class CharacterGun : MonoBehaviour, ICharacterComponent
 
     private void ShootOnce()
         {
+            if(ParentCharacter.IsWeaponEquipped == false) return;
+            if(ParentCharacter.IsReloading) return;
         if (anim)
         {
             if (Character_1) anim.SetTrigger("Fire");

@@ -758,6 +758,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 06becad1c40230b42ac96e48c006eb48, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4054579550904195469}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 06becad1c40230b42ac96e48c006eb48, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5662835057246374380}
     - targetCorrespondingSourceObject: {fileID: -7657966619581158213, guid: 06becad1c40230b42ac96e48c006eb48, type: 3}
       insertIndex: -1
       addedObject: {fileID: 750853089553472308}
@@ -917,6 +920,38 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: cfba62d3-562b-49f2-bc55-ad07facd4016
     m_ActionName: 'Character/Fire[/Mouse/leftButton]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5662835057246374380}
+        m_TargetAssemblyTypeName: CharacterEmote, Assembly-CSharp
+        m_MethodName: OnEmote
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 451dc6e2-0e0e-4510-acb5-5b25efcf9874
+    m_ActionName: 'Character/Emote[/Keyboard/t]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5662835057246374380}
+        m_TargetAssemblyTypeName: CharacterEmote, Assembly-CSharp
+        m_MethodName: onReload
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 5316e791-60cb-437d-b993-9f367a182270
+    m_ActionName: 'Character/Reload[/Keyboard/r]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Character
@@ -1032,6 +1067,18 @@ MonoBehaviour:
   Character_1: 0
   Character_2: 0
   Character_3: 1
+--- !u!114 &5662835057246374380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8517404980994071119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5fa147f555dfa24381954a10625ed04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterEmote
 --- !u!4 &9041035760445882613 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 06becad1c40230b42ac96e48c006eb48, type: 3}
