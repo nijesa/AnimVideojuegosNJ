@@ -19,9 +19,14 @@ public class CharacterGun : MonoBehaviour, ICharacterComponent
    [SerializeField] private bool debugDraw;
    [SerializeField] private float debugDuration;
    [SerializeField] private RecoilCameraKick recoil;
+   
    [SerializeField] private float camKick;
    [SerializeField] private float camShake;
    [SerializeField] private float camRecover;
+
+   [SerializeField] private bool Character_1;
+   [SerializeField] private bool Character_2;
+   [SerializeField] private bool Character_3;
 
     private void OnDrawGizmos()
     {
@@ -60,7 +65,12 @@ public class CharacterGun : MonoBehaviour, ICharacterComponent
 
     private void ShootOnce()
         {
-            if(anim) anim.SetTrigger("Fire");
+        if (anim)
+        {
+            if (Character_1) anim.SetTrigger("Fire");
+            if (Character_2) anim.SetTrigger("Fire2");
+            if (Character_3) anim.SetTrigger("Fire3");
+        } 
             
             if(recoil) recoil.Kick(camShake,camKick,camRecover);
             

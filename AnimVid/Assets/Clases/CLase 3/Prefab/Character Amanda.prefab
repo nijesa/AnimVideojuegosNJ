@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8857623577105652710}
   m_Layer: 0
   m_Name: Character Amanda
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -73,8 +73,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5004105973950470128}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.49983147, y: 0.49431548, z: -0.6825117, w: -0.1999963}
-  m_LocalPosition: {x: -0.52036667, y: 1.0950117, z: 0.021733284}
+  m_LocalRotation: {x: -0.49983135, y: 0.4943156, z: -0.6825117, w: -0.19999634}
+  m_LocalPosition: {x: -0.52036667, y: 1.095012, z: 0.021733284}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -319,7 +319,7 @@ MonoBehaviour:
     LookAtTarget: {fileID: 0}
     CustomLookAtTarget: 0
   Lens:
-    FieldOfView: 60.000004
+    FieldOfView: 30
     OrthographicSize: 5
     NearClipPlane: 0.3
     FarClipPlane: 1000
@@ -747,7 +747,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -3480699329000672020, guid: f6d251c8cf1845743b6ff0c36ddae005, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.042704087
+      value: -0.0427041
       objectReference: {fileID: 0}
     - target: {fileID: -3480699329000672020, guid: f6d251c8cf1845743b6ff0c36ddae005, type: 3}
       propertyPath: m_LocalRotation.y
@@ -755,7 +755,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -3480699329000672020, guid: f6d251c8cf1845743b6ff0c36ddae005, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.0070476197
+      value: -0.0070475275
       objectReference: {fileID: 0}
     - target: {fileID: -3480699329000672020, guid: f6d251c8cf1845743b6ff0c36ddae005, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -987,7 +987,10 @@ MonoBehaviour:
     _SmoothTime: 0.3
   camera: {fileID: 3729914127123004770}
   angularSpeed: 90
-  crouchSpeedMultiplier: 0.5
+  Character_1: 0
+  Character_2: 1
+  Character_3: 0
+  crouchSpeedMultiplier: 0.6
 --- !u!114 &3153363200439631081
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1073,6 +1076,9 @@ MonoBehaviour:
   camKick: 0.5
   camShake: 5
   camRecover: 0.38
+  Character_1: 0
+  Character_2: 1
+  Character_3: 0
 --- !u!4 &3289800871576225555 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f6d251c8cf1845743b6ff0c36ddae005, type: 3}

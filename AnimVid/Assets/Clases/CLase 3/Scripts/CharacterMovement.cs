@@ -13,9 +13,16 @@ public class CharacterMovement : MonoBehaviour, ICharacterComponent
         private int _speedYHash;
         private Animator _animator;
 
+        [SerializeField] private bool Character_1;
+        [SerializeField] private bool Character_2;
+        [SerializeField] private bool Character_3;
+
         private void Awake()
         {
             _animator = GetComponent<Animator>();
+            if(Character_1) _animator.speed = 1;
+            if(Character_2) _animator.speed = 1.5f;
+            if(Character_3) _animator.speed = 0.5f;
             _speedXHash = Animator.StringToHash("SpeedX");
             _speedYHash = Animator.StringToHash("SpeedY");
         }
@@ -48,6 +55,7 @@ public class CharacterMovement : MonoBehaviour, ICharacterComponent
             speedY.Update();
             _animator.SetFloat(_speedXHash,speedX.currentValue);
             _animator.SetFloat(_speedYHash,speedY.currentValue);
+            
             SolveCharacterRotation();
             if (ParentCharacter != null && ParentCharacter.IsAiming)
             {
