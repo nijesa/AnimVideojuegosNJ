@@ -10,6 +10,7 @@ public class CharacterEmote : MonoBehaviour, ICharacterComponent
     private void Awake()
     {
         anim = GetComponent<Animator>();
+       
     }
     public void OnEmote()
     {
@@ -52,5 +53,11 @@ public class CharacterEmote : MonoBehaviour, ICharacterComponent
     {
         ParentCharacter.IsReloading = false;
         reloadStarted = false;
+    }
+
+    public void onCrouch()
+    {
+        ParentCharacter.IsCrouching = !ParentCharacter.IsCrouching;
+        anim.SetBool("isCrouch", ParentCharacter.IsCrouching);
     }
 }

@@ -28,6 +28,8 @@ public class CharacterGun : MonoBehaviour, ICharacterComponent
    [SerializeField] private bool Character_2;
    [SerializeField] private bool Character_3;
 
+   [SerializeField] private float damageDone;
+
     private void OnDrawGizmos()
     {
         if (!debugDraw) return;
@@ -91,7 +93,8 @@ public class CharacterGun : MonoBehaviour, ICharacterComponent
                 }
 
 
-                var info = new HitInfo { point = hit.point, normal = hit.normal, damage = 10f };
+
+                var info = new HitInfo { point = hit.point, normal = hit.normal, damage = damageDone };
 
                 if (hit.collider.TryGetComponent<IHitable>(out var h))
                 {

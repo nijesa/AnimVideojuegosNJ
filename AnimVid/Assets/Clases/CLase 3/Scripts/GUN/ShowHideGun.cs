@@ -4,19 +4,39 @@ using UnityEngine.InputSystem;
 public class ShowHideGun : MonoBehaviour, ICharacterComponent
 {
     [SerializeField] private GameObject gun;
+    private Animator anim;
     public Character ParentCharacter { get; set; }
+
+    void Awake()
+    {
+        anim = GetComponent<Animator>();
+    }
 
     public void onShowHideGun()
     {
         if(ParentCharacter.IsWeaponEquipped)
         {
-            gun.SetActive(false);
+
             ParentCharacter.IsWeaponEquipped = false;
+            if(anim)anim.SetTrigger("Equip");
         }
         else
         {
-            gun.SetActive(true);
+
             ParentCharacter.IsWeaponEquipped = true;
+            if(anim)anim.SetTrigger("Equip");
+        }
+    }
+
+    public void animShowHide()
+    {
+        if (ParentCharacter.IsWeaponEquipped)
+        {
+            gun.SetActive(true);
+        }
+        else
+        {
+            gun.SetActive(false);
         }
     }
 }

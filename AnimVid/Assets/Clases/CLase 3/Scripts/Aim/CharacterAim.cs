@@ -26,6 +26,7 @@ public class CharacterAim : MonoBehaviour,ICharacterComponent
         {
             return;
         }
+        if(ParentCharacter.IsWeaponEquipped == false) return;
 
         aimCamera?.gameObject.SetActive(ctx.started);
         ParentCharacter.IsAiming = ctx.started;
